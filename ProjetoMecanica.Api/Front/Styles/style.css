@@ -1,0 +1,159 @@
+
+
+/*-------------------- Geral--------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  min-height: 80vh;  
+}
+
+.glass-card {
+  background: rgba(157, 63, 63, 0.15);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.20);
+  border-radius: 20px;
+  color: #f4ebeb;  border-radius: 20px;
+  color: #760404;
+  padding: 60px 50px;
+}
+
+
+
+body{
+      background: linear-gradient(135deg, #e00000 0%, #660000 50%, #470005 100%);
+      width: 100vw;
+      height: 100vh;
+}
+
+/*-------------------- xxxxxx--------------------- */
+
+
+/*-------------------- log in--------------------- */
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 100%;
+
+}
+
+
+.Conteudo-Login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 300px;
+    height: 400px;
+
+}
+
+
+h1{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding: 11px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  transition: all 0.2s ease;
+  background: rgba(255,179,153,0.15);
+  color: #ffded3;
+  width: 50%;
+  margin-top: 40px;
+}
+.btn:hover {
+  background: rgba(255,179,153,0.25);
+}
+
+/*-------------------- Inputs--------------------- */
+
+input{
+    width: 80%;
+    padding: 10px;
+    border: none;
+  outline: none;
+  background-color: transparent;
+
+}
+input::placeholder {
+  color: rgb(83, 54, 54);
+}
+i{
+width: 10%;
+}
+
+.input-group{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.input-item{
+    flex-direction: row;
+    width: 100%;
+   background-color: #efefefbb;
+   border-radius: 8px;
+   padding: 5px 10px;
+
+}
+
+.input-item:focus-within{
+   background-color: #efefef;
+    transition: 0.4s;
+
+}
+
+label{
+    width: 100%;
+    font-weight: bold;
+    color: #efefef;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+/*--------------------xxxxx--------------------- */
+
+/*-------------------- Logo --------------------- */
+
+.logo{
+    width: 400px;
+    height:400px;
+    display: flex;
+    color: #fff;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*-------------------- xxxxx--------------------- */
+/*--------------------xxxxx--------------------- */

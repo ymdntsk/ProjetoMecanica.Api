@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <title>Cadastro De Clientes</title>
+    <link rel="stylesheet" href="Styles/MenuStyle.css">
+    <link rel="stylesheet" href="Styles/Form.css">
+</head>
+<body>
+   
+
+    <section class="Menu-Container">
+        <nav class="Menu-Item">
+                <div class="log-out"> 
+                <div class="Container-Nome-Icon">
+                <div id="Icon-pessoa"><i class="fa-solid fa-user"></i></div>
+                <p id="Nome-Usuario">Nome do Usuário</p>
+                </div>
+
+                <a href="index.html"><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+            </div>
+
+            <ul id="Menu">
+                <li class="Items"><a href="Listagem-Clientes.html">Clientes</a></li>
+                <li class="Items"><a href="Listagem-Veiculos.html">Veiculos</a></li>
+                <li class="Items"><a href="Listagem-Agendamento.html">Agendamentos</a></li>
+            </ul>
+         <footer id="Logo-Menu"><img src="Img/Logo.png" alt="" id="Logo-Bottom"></footer>
+        </nav>
+    </section>
+
+
+    <main>
+
+        <form class="Formulario glass-card">
+            <h1>Cadastro de Cliente</h1>
+            <div class="input-group">
+                <label for="nome">Nome do Cliente</label>
+                <div class="input-item">
+                    <i class="fa-solid fa-user"></i>
+                    <input id="nome" name="nome" type="text" placeholder="Digite o nome do cliente" />
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label for="marca">Cpf</label>
+                <div class="input-item">
+                    <i class="fa-solid fa-bars"></i>
+                    <input id="marca" name="marca" type="text" placeholder="123.456.789-00" />
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label for="ano">Email</label>
+                <div class="input-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <input id="ano" name="ano" type="email" placeholder="Digite o email do cliente" />
+                </div>
+            </div>
+
+
+
+            <button class="btn" type="submit">Cadastrar</button>
+
+
+        </form> 
+
+    </main>
+
+    
+</body>
+</html>

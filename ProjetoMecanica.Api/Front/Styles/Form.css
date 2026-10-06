@@ -1,0 +1,101 @@
+
+
+.glass-card {
+  background: rgba(25, 3, 3, 0.54);
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.20);
+  border-radius: 20px;
+  color: #f4ebeb;  border-radius: 20px;
+  color: #ffe9e9;
+  padding: 60px 50px;
+}
+
+.Formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 50vw;
+
+}
+
+body{
+      width: 100vw;
+      height: 100vh;
+}
+
+.Formulario h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.Formulario input{
+    width: 80%;
+    padding: 10px;
+    border: none;
+  outline: none;
+  background-color: transparent;
+
+}
+.Formulario input::placeholder {
+  color: rgb(83, 54, 54);
+}
+.Formulario i{
+width: 10%;
+color: rgba(25, 3, 3, 0.54);
+}
+
+.Formulario .input-group{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+.Formulario .input-item{
+    flex-direction: row;
+    width: 100%;
+   background-color: #efefefbb;
+   border-radius: 8px;
+   padding: 5px 10px;
+
+}
+
+.Formulario .input-item:focus-within{
+   background-color: #efefef;
+    transition: 0.4s;
+
+}
+
+.Formulario label{
+    width: 100%;
+    font-weight: bold;
+    color: #efefef;
+    width: 100%;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.Formulario .btn{
+    width: 50%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 242, 203, 0.706);
+    color: #3e0909;
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.Formulario .btn:hover {
+  background: rgba(255, 218, 205, 0.25);
+  transition: 0.3s;
+  color: #efefef;
+}

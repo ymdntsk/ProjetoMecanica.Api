@@ -1,0 +1,85 @@
+main {
+    padding: 20px;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;   
+    justify-content: flex-start !important; 
+}
+
+#Lista-Container {
+    width: 100%;
+    max-width: 900px;
+    padding: 0; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.Tabela-Lista{
+    width: 100%;
+    border-spacing: 0;
+    background: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    border-radius: 20px;
+    overflow: hidden;
+    color: rgb(255, 249, 241);
+}
+
+.Tabela-Lista thead{
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.Tabela-Lista th{
+    text-align: left;
+    padding: 18px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.30);
+}
+
+.Tabela-Lista td{
+    padding: 16px 20px;
+    font-size: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.Tabela-Lista tbody tr{
+    transition: 0.3s;
+}
+
+.Tabela-Lista tbody tr:hover{
+    background: rgba(255, 255, 255, 0.10);
+}
+
+
+.Button-Container {
+    width: 100%;
+    max-width: 900px; 
+    height: fit-content;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 12px;
+}
+
+.Adicionar{
+    
+    background: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    padding: 10px 20px;
+    margin-bottom: 0;  
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.Adicionar:hover {
+    background-color: rgba(0, 0, 0, 0.25);
+}
