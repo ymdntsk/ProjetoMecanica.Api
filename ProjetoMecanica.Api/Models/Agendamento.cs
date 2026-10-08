@@ -9,11 +9,13 @@ namespace ProjetoMecanica.Api.Models
         public DateTime DataAgendamento { get; set; }
         public string Servico { get; set; }
         public decimal Preco { get; set; }
+        public int? ClientesId { get; set; }
+        public int? VeiculosId { get; set; }
 
         [JsonIgnore]
-        public Cliente? Cliente { get; set; }
+        public Cliente? Clientes { get; set; }
 
         [JsonIgnore]
-        public Veiculo? Veiculo { get; set; }
+        public Veiculo? Veiculos { get; set; }
     }
 }

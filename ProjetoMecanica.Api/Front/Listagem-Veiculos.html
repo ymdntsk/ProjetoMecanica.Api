@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <title>Lista de Veículos</title>
+    <link rel="stylesheet" href="Styles/Listagems.css">
     <link rel="stylesheet" href="Styles/MenuStyle.css">
 </head>
 <body>
@@ -29,8 +30,58 @@
          <footer id="Logo-Menu"><img src="Img/Logo.png" alt="" id="Logo-Bottom"></footer>
         </nav>
     </section>
-    <main
+    <main>
+     <h1>Listagem de Veículos</h1>
+    <section class="Button-Container">
+        <a href="Reg-Veiculos.html">
+            <button class="Adicionar"><i class="fa-solid fa-plus"></i> Adicionar Veículo</button>
+        </a>
+    </section>
 
+ <section id="Lista-Container">
+        <table class="Tabela-Lista">
+            <thead>
+                <tr>
+                    <th>Modelo</th>
+                    <th>Cor</th>
+                    <th>Placa</th>
+                    <th>Marca</th>
+                    <th>Cliente</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="Tabela-Corpo">
+                <tr>
+                    <td>Chevrolet</td>
+                    <td>Vermelho</td>
+                    <td>ugk6067</td>
+                    <td>Vozvagem</td>
+                    <td>Ana Livia</td>
+                    <td><i class="fa-solid fa-pen-to-square"></i></td>
+                    <td><i class="fa-solid fa-trash-can"></i></td>
+                </tr>
+                <tr>
+                    <td>Onix</td>
+                    <td>Preto</td>
+                    <td>ABC1D23</td>
+                    <td>Chevrolet</td>
+                    <td>Luana Allpi Da Silva</td>
+                    <td><i class="fa-solid fa-pen-to-square Editar-Cliente"></i></td>
+                    <td><i class="fa-solid fa-trash-can Excluir-Cliente"></i></td>
+                </tr>
+                <tr>
+                    <td>Corolla</td>
+                    <td>Prata</td>
+                    <td>XYZ9X87</td>
+                    <td>Toyota</td>
+                    <td>Isabelle Kayano</td>
+                    <td><i class="fa-solid fa-pen-to-square Editar-Cliente"></i></td>
+                    <td><i class="fa-solid fa-trash-can Excluir-Cliente"></i></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
     </main>
 
     

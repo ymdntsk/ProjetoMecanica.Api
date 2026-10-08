@@ -84,8 +84,24 @@ h1{
   width: 50%;
   margin-top: 40px;
 }
+
+.Botao{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .btn:hover {
   background: rgba(255,179,153,0.25);
+}
+button a{
+    text-decoration: none;
+    color: rgb(255, 249, 241);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*-------------------- Inputs--------------------- */

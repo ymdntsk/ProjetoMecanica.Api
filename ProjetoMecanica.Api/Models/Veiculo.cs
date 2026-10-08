@@ -8,13 +8,14 @@ namespace ProjetoMecanica.Api.Models
     {
         public int Id { get; set; }
         public string Modelo { get; set; }
+        public string Cor { get; set; }
         public string Placa { get; set; }
         public string Marca { get; set; }
-        public string Cor { get; set; }
 
+        public int? ClientesId { get; set; }
 
         [JsonIgnore]
-        public Cliente? Cliente { get; set; }
+        public Cliente? Clientes { get; set; }
 
         [JsonIgnore]
         public ICollection<Agendamento> Agendamentos { get; set; } = new List<Agendamento>();
