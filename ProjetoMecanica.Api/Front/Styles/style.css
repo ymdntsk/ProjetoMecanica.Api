@@ -85,20 +85,17 @@ h1{
   margin-top: 40px;
 }
 
-.Botao{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .btn:hover {
   background: rgba(255,179,153,0.25);
 }
-button a{
+ form a{
+    z-index: 100;
+    width: 100%;
     text-decoration: none;
     color: rgb(255, 249, 241);
-    width: 100%;
-    height: 100%;
+    width: fit-content;
+    
     display: flex;
     justify-content: center;
     align-items: center;
